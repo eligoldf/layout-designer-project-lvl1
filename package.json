@@ -16,6 +16,6 @@
     "stylelint-order": "^4.1.0",
     "surge": "^0.21.7"
   },
-  "author": "Nikita Mikhaylov",
+  "author": "Eli Goldfeder",
   "license": "ISC"
 }
