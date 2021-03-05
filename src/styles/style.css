@@ -73,6 +73,10 @@
     background-color: var(--prime-orange);
 }
 
+.bg-white {
+    background-color: white;
+}
+
 /* Positioning */
 .pos-relative {
     position: relative;
@@ -101,6 +105,17 @@
 
 .mb-199 {
     margin-bottom: 199px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.align-center {
+    align-items: center;
+}
+.text-center {
+    text-align: center;
 }
 /* Basic styles */
 
@@ -187,3 +202,14 @@ h3 {
 .uppercase {
     text-transform: uppercase;
 }
+
+.video {
+    width: 919px;
+    height: 569px;
+    border: none;
+}
+
+.filter {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
