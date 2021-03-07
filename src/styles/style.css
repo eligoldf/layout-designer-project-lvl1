@@ -21,9 +21,81 @@
     --dark-trancelucent: #908d8b;;
     --brown: #b09a81;
     --blue: #1085c5;
+    --dark-orange: #EA7600;
+}
+/*
+/* Main Styles */
+* {
+    margin: 0;
+    padding: 0;
 }
 
+.body {
+    overflow-x: hidden;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 1.6em;
+    color: var(--dark);
+}
 
+h1,
+h2,
+h3 {
+    margin-bottom: 16px;
+    font-family: 'Neucha';
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+.container {
+    position: relative;
+    z-index: 0;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.col {
+    flex-basis: 540px;
+    margin-bottom: 0;
+}
+
+.card {
+    flex-basis: 302px;
+    padding: 24px;
+    text-decoration: none;
+}
+
+.card:hover {
+    color: var(--white);
+    cursor: pointer;
+    background-color: var(--prime-orange);
+}
+
+.number {
+    margin-bottom: 40px;
+    font-family: 'Neucha';
+    font-size: 64px;
+    line-height: 1em;
+    color: var(--primary-dark)
+}
+
+/* Fonts */
+
+.fs-52 {
+    font-size: 52px;
+}
 /* Colors */
 .c-white {
     color: var(--white);
@@ -37,7 +109,7 @@
     color: var(--light);
 }
 
-.c-prime-orange {
+.c-orange {
     color: var(--prime-orange);
 }
 
@@ -69,6 +141,10 @@
     background-color: var(--white);
 }
 
+.bg-dark {
+    background-color: var(--primary-dark);
+}
+
 .bg-orange {
     background-color: var(--prime-orange);
 }
@@ -82,134 +158,135 @@
     position: relative;
 }
 
-.flex {
+.d-flex {
     display: flex;
 }
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .flex-column {
-    display: flex;
     flex-direction: column;
 }
 
-.flex-sb {
-    display: flex;
-    justify-content: space-between;
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mr-10 {
+    margin-right: 10;
+}
+
+.mr-20 {
+    margin-right: 20px;
 }
 
 .mr-30 {
     margin-right: 30px;
 }
 
+.mb-200 {
+    margin-bottom: 200px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
 .mt-24 {
     margin-top: 24px;
 }
 
-.mb-199 {
-    margin-bottom: 199px;
+.mt-m200 {
+    margin-top: -200px;
 }
 
 .mb-30 {
     margin-bottom: 30px;
 }
 
-.align-center {
-    align-items: center;
-}
-.text-center {
-    text-align: center;
-}
-/* Basic styles */
-
-* {
-    margin: 0;
-    padding: 0;
+.pt-200 {
+    padding-top: 200px;
 }
 
-body {
-    font-family: 'Open Sans';
-    font-size: 16px;
-    line-height: 1.6em;
-    color: var(--dark);
+.pr-10 {
+    padding-right: 10px;
 }
 
-
-h1,
-h2,
-h3 {
-  margin-bottom: 16px;
-  color: var(--prime-orange);
-  font-family: 'Neucha';
-  line-height: 1.2em;
-}
-
-h1 {
-    font-size: 72px;
-}
-
-h2 {
-    font-size: 60px;
-}
-
-h3 {
-    font-size: 34px;
-}
-
-.container {
-    position: relative;
-    max-width: 1110px;
-    margin: 0 auto;
-    padding: 100px 0;
-}
+/* Background Image */
 
 .bg-img::before {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 0;
     left: 0;
-    background-image: url("../../images/background.png");
-    background-repeat: no-repeat;
+    right: 0;
+    background: no-repeat url('../../images/background.png');
     background-size: cover;
-    content: "";
     opacity: 0.1;
+    content: '';
 }
+
+
+/* Images */
 
 .header-img {
     position: absolute;
-    height: 525px;
     top: 55px;
     right: -270px;
     width: 1082.81px;
+    z-index: -1;
+    height: 525px;
 }
 
-.text-col {
-    flex-basis: 540px;
-    margin-bottom: 0; 
-}
-
+/* Button */
 
 .btn {
     color: var(--white);
     background-color: var(--prime-orange);
 }
 
+.btn:hover {
+    background-color: var(--dark-orange);
+    cursor: pointer;
+}
+
 .btn-primary {
-    display: inline-block;
-    padding: 12px 24px;
-    font-weight: bold;
-    text-decoration: none;
+  display: inline-block;
+  padding: 13px 24px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
 
-.video {
-    width: 919px;
-    height: 569px;
-    border: none;
+/* Video Shadow */
+
+.shadow {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15)); 
 }
 
-.filter {
-    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+.video {
+  width: 919px;
+  height: 569px;
+  border: none;
+}
+
+
+/* Fonts */
+
+.f-size52 {
+    font-size: 52px;
 }
 
