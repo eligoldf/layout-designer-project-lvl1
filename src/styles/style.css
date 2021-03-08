@@ -58,6 +58,10 @@ h3 {
     font-size: 34px;
 }
 
+p {
+    margin-bottom: 16px;
+}
+
 .container {
     position: relative;
     z-index: 0;
@@ -108,7 +112,7 @@ h3 {
 }
 
 .fs-34 {
-    font-size: 34;
+    font-size: 34px;
 }
 
 .fs-52 {
@@ -316,9 +320,9 @@ h3 {
 .heading-line {
   margin: 100px 0 0 0;
   padding: 5px 10px;
+  font-family: 'Open Sans';
   font-weight: 700;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 /* Fonts */
