@@ -273,6 +273,11 @@ h3 {
     height: 525px;
 }
 
+.img {
+    width: 578px;
+    height: 434px;
+    vertical-align: middle;
+}
 /* Button */
 
 .btn {
