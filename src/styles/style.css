@@ -299,7 +299,7 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
-    background: no-repeat url('../../images/background.png');
+    background: no-repeat url('../images/background.png');
     background-size: cover;
     opacity: 0.1;
     content: '';
@@ -354,7 +354,7 @@ p {
     left: 24px;
     width: 22px;
     height: 22px;
-    background-image: url('../../images/send.svg');
+    background-image: url('../images/send.svg');
     background-position: center center;
     content: '';
   }
