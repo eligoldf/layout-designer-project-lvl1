@@ -119,6 +119,21 @@ p {
     font-size: 52px;
 }
 
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
 /* Colors */
 .c-white {
     color: var(--white);
@@ -220,6 +235,17 @@ p {
     margin-right: 30px;
 }
 
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-14 {
+    margin-bottom: 14px;
+}
 .mb-200 {
     margin-bottom: 200px;
 }
@@ -235,6 +261,11 @@ p {
 .mt-30 {
     margin-top: 30px;
 }
+
+.mt-40 {
+    margin-top: 40px;
+}
+
 .mt-m200 {
     margin-top: -200px;
 }
@@ -243,6 +274,12 @@ p {
     margin-bottom: 30px;
 }
 
+.mt-74 {
+    margin-top: 74px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
 .pt-200 {
     padding-top: 200px;
 }
@@ -251,6 +288,9 @@ p {
     padding-right: 10px;
 }
 
+.pl-55 {
+    padding-left: 55px;
+}
 /* Background Image */
 
 .bg-img::before {
@@ -301,6 +341,24 @@ p {
   text-decoration: none;
 }
 
+.btn-icon {
+    position: relative;
+    width: 70px;
+    height: 50px;
+    border: none;
+}
+
+.btn-icon::before {
+    position: absolute;
+    top: 14px;
+    left: 24px;
+    width: 22px;
+    height: 22px;
+    background-image: url('../../images/send.svg');
+    background-position: center center;
+    content: '';
+  }
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -331,3 +389,14 @@ p {
     font-size: 52px;
 }
 
+/* Email */
+.input-email {
+    display: inline-block;
+  
+    width: 385px;
+    padding: 15px;
+  
+    color: rgba(117, 117, 117, 0.8);
+  
+    border: 1px;
+  }
