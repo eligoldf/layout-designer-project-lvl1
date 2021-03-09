@@ -2,4 +2,4 @@
 
 HTML/CSS Designer project
 
-[DEMO](madly-balance.surge.sh)
+[DEMO](https://madly-balance.surge.sh)
