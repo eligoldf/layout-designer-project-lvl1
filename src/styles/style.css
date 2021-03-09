@@ -76,7 +76,7 @@ p {
 }
 
 .number {
-    margin-bottom: 40px;
+    margin-bottom: 37px;
     font-family: 'Neucha';
     font-size: 64px;
     line-height: 1em;
@@ -134,6 +134,11 @@ p {
 .fs-18 {
     font-size: 18px;
 }
+
+.fs-52 {
+    font-size: 52px;
+}
+
 /* Colors */
 .c-white {
     color: var(--white);
@@ -224,7 +229,7 @@ p {
 }
 
 .mr-10 {
-    margin-right: 10;
+    margin-right: 10px;
 }
 
 .mr-20 {
@@ -284,8 +289,8 @@ p {
     padding-top: 200px;
 }
 
-.pr-10 {
-    padding-right: 10px;
+.pr-9 {
+    padding-right: 9px;
 }
 
 .pl-55 {
@@ -383,11 +388,6 @@ p {
   font-size: 14px;
 }
 
-/* Fonts */
-
-.f-size52 {
-    font-size: 52px;
-}
 
 /* Email */
 .input-email {
