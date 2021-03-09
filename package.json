@@ -9,11 +9,16 @@
   "main": "",
   "devDependencies": {
     "htmlhint": "^0.14.2",
-    "stylelint": "^13.8.0",
-    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint": "^13.12.0",
+    "stylelint-config-rational-order": "^0.0.3",
     "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.1.0"
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0"
   },
   "author": "Eli Goldfeder",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "surge": "^0.21.7"
+  }
 }
